@@ -1,0 +1,4 @@
+download datasets
+AIDS: https://wiki.nci.nih.gov/display/NCIDTPdata/Aids+Antiviral+Screen+Dat
+CCI: http://stitch.embl.de/cgi/download.pl
+FFmpeg/OpenSSL: https://github.com/ryderling/MGMN/tree/main/data/CFG
