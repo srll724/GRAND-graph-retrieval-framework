@@ -49,7 +49,7 @@ We conduct experiments on four real-world datasets to comparatively evaluate our
 
 * **OpenSSL**: This dataset is composed of ControlFlow Graphs (CFGs) of binary functions compiled from OpenSSL. In this dataset, OpenSSL (versions 1.0.1f and 1.0.1u) is compiled using GCC v5.4 with optimization levels O0-O3 on architectures x86, MIPS, and ARM.
 
-For each of the three datasets, we split the graphs into three parts: training graphs, validation graphs, and test graphs. Specifically, for AIDS dataset, we use 420 graphs as training graphs and the other graphs are divided equally into validation graphs, and test graphs. For CCI, FFmpeg and OpenSSL datasets, we first randomly sample 90% of the graphs, of which 1, 000 graphs are used as validation graphs and the rest are used as training graphs, and the remaining 10% of the graphs are used as test graphs.
+For each of the three datasets, we split the graphs into three parts: training graphs, validation graphs, and test graphs. Specifically, for AIDS dataset, we use 420 graphs as training graphs and the other graphs are divided equally into validation graphs, and test graphs. For CCI, FFmpeg and OpenSSL datasets, we first randomly sample 90% of the graphs, of which 1, 000 graphs are used as validation graphs and the rest are used as training graphs, and the remaining 10% of the graphs are used as test graphs. Finally, you can download the above datasets in data\download.
 
 
 
